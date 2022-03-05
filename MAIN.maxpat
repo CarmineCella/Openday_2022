@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 143.0, 1718.0, 903.0 ],
+		"rect" : [ 34.0, 87.0, 1340.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,14 +40,240 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-28",
-					"linecount" : 8,
+					"id" : "obj-56",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1122.666700124740601, 476.50001323223114, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-55",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 981.333362579345703, 519.833347856998444, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-53",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 981.333362579345703, 494.666681408882141, 74.0, 22.0 ],
+					"text" : "delay 15000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-52",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 6,
+					"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "bang" ],
+					"patching_rect" : [ 930.33333033323288, 459.333346366882324, 72.0, 22.0 ],
+					"text" : "t b b b b b b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-50",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 929.666663646697998, 423.333345293998718, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-47",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 793.0, 500.0, 150.0, 127.0 ],
-					"presentation_linecount" : 8,
-					"text" : "DA FARE\n- inventare mapping interessanti\n- implementare interfaccia del synth sottrattivo\n- decidere le automatzioni e il design generale dell'installazione\n"
+					"patching_rect" : [ 925.666663527488708, 395.333345115184784, 150.0, 20.0 ],
+					"text" : "ESEMPIO PARTITURA"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-45",
+					"linecount" : 6,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 973.666663646697998, 576.000017166137695, 151.0, 89.0 ],
+					"presentation_linecount" : 6,
+					"text" : ";\r1-FMgran-lenmin 10000;\r1-FMgran-lenrange 10000;\r1-FMgran-index 1;\r1-FMgran-fundamental 27;\r:"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-44",
+					"linecount" : 6,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1180.333337783813477, 487.333347856998444, 157.0, 89.0 ],
+					"text" : ";\r1-FMgran-lenmin 10000;\r1-FMgran-lenrange 10000;\r1-FMgran-index 4;\r1-FMgran-fundamental 880;\r:"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontsize" : 25.0,
+					"id" : "obj-41",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1395.00001585483551, 734.333337366580963, 92.0, 34.0 ],
+					"text" : "RESET"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-40",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1280.000038146972656, 733.700003981590271, 102.666669011116028, 102.666669011116028 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-38",
+					"linecount" : 6,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1280.000038146972656, 866.666692495346069, 125.0, 89.0 ],
+					"text" : ";\r1-sinux-reset bang;\r1-FMgran-reset bang;\r1-reset bang;\r2-reset bang;\r1-"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-36",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1280.000038146972656, 673.333353400230408, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-19",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 1011.666663646697998, 268.666657209396362, 129.0, 22.0 ],
+					"text" : "scale~ 0. 1. 110. 1660."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-34",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 863.0, 906.0, 161.0, 33.0 ],
+					"presentation_linecount" : 3,
+					"text" : "Uscite 1 e 2: casse per droni\nUscita 3 e 4: placche"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-33",
+					"maxclass" : "meter~",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 408.400004863739014, 726.000003337860107, 80.0, 13.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-30",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 430.200002789497375, 764.000003337860107, 117.0, 22.0 ],
+					"text" : "send~ 2-signal-input"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-29",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 430.200002789497375, 685.399999260902405, 162.0, 22.0 ],
+					"text" : "receive~ 2-Microphone-out-1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ 2 ],
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-25",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "modal_synth_module2.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 414.166667580604553, 450.0, 398.0, 208.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-28",
+					"linecount" : 6,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1267.500038146972656, 102.666652679443359, 150.0, 100.0 ],
+					"text" : "DA FARE\n- inventare mapping interessanti\n- decidere le automatzioni e il design generale dell'installazione\n"
 				}
 
 			}
@@ -58,21 +284,20 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 249.0, 782.0, 150.0, 47.0 ],
-					"presentation_linecount" : 2,
-					"text" : "input del piezo su Modal synth\n"
+					"patching_rect" : [ 233.79999977350235, 682.199999213218689, 150.0, 47.0 ],
+					"text" : "input del piezo su Modal synths\n"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-26",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1508.0, 514.0, 150.0, 33.0 ],
-					"text" : "mapping su detune di Mirror"
+					"patching_rect" : [ 1007.999998271465302, 60.333319306373596, 150.0, 47.0 ],
+					"text" : "mapping energia del pizeo 1 sul pitch del modal synth 1"
 				}
 
 			}
@@ -83,7 +308,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1411.0, 740.0, 75.0, 22.0 ],
+					"patching_rect" : [ 1007.999998271465302, 236.333317816257477, 75.0, 22.0 ],
 					"text" : "onepole~ 80"
 				}
 
@@ -95,7 +320,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1409.0, 687.0, 36.0, 22.0 ],
+					"patching_rect" : [ 1007.999998271465302, 199.333318293094635, 36.0, 22.0 ],
 					"text" : "sqrt~"
 				}
 
@@ -107,7 +332,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1402.0, 636.0, 29.5, 22.0 ],
+					"patching_rect" : [ 1007.999998271465302, 156.333318531513214, 29.5, 22.0 ],
 					"text" : "*~"
 				}
 
@@ -119,7 +344,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 1521.0, 770.0, 81.0, 22.0 ],
+					"patching_rect" : [ 1011.666663646697998, 310.999991238117218, 81.0, 22.0 ],
 					"text" : "snapshot~ 20"
 				}
 
@@ -130,20 +355,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1516.0, 802.0, 121.0, 22.0 ],
-					"text" : "send 1-Mirror-detune"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-19",
-					"maxclass" : "newobj",
-					"numinlets" : 6,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1496.0, 611.0, 110.0, 22.0 ],
-					"text" : "scale~ 0. 1. 0. 127."
+					"patching_rect" : [ 1011.666663646697998, 362.866657853126526, 75.0, 22.0 ],
+					"text" : "send 1-fmax"
 				}
 
 			}
@@ -154,8 +367,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1496.0, 555.0, 162.0, 22.0 ],
-					"text" : "receive~ 2-Microphone-out-1"
+					"patching_rect" : [ 1002.999998271465302, 102.666652679443359, 162.0, 22.0 ],
+					"text" : "receive~ 1-Microphone-out-1"
 				}
 
 			}
@@ -166,7 +379,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 592.0, 586.0, 137.0, 22.0 ],
+					"patching_rect" : [ 863.0, 830.700003981590271, 137.0, 22.0 ],
 					"text" : "receive~ 1-signal-output"
 				}
 
@@ -178,7 +391,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 82.0, 758.0, 80.0, 13.0 ]
+					"patching_rect" : [ 77.999999940395355, 721.199999451637268, 80.0, 13.0 ]
 				}
 
 			}
@@ -188,7 +401,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.0, 839.0, 117.0, 22.0 ],
+					"patching_rect" : [ 41.0, 757.000003337860107, 117.0, 22.0 ],
 					"text" : "send~ 1-signal-input"
 				}
 
@@ -200,7 +413,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 243.0, 735.0, 162.0, 22.0 ],
+					"patching_rect" : [ 41.0, 682.199999213218689, 162.0, 22.0 ],
 					"text" : "receive~ 1-Microphone-out-1"
 				}
 
@@ -212,7 +425,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 924.0, 739.0, 141.0, 22.0 ],
+					"patching_rect" : [ 856.5, 764.000003337860107, 141.0, 22.0 ],
 					"text" : "receive~ 1-FMgran-out-2"
 				}
 
@@ -224,7 +437,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 871.0, 653.0, 141.0, 22.0 ],
+					"patching_rect" : [ 845.5, 733.700003981590271, 141.0, 22.0 ],
 					"text" : "receive~ 1-FMgran-out-1"
 				}
 
@@ -236,7 +449,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 634.0, 718.0, 128.0, 22.0 ],
+					"patching_rect" : [ 863.0, 806.700003981590271, 128.0, 22.0 ],
 					"text" : "receive~ 1-sinux-out-2"
 				}
 
@@ -248,7 +461,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 551.5, 680.0, 128.0, 22.0 ],
+					"patching_rect" : [ 714.166667580604553, 756.700003981590271, 128.0, 22.0 ],
 					"text" : "receive~ 1-sinux-out-1"
 				}
 
@@ -260,7 +473,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 517.0, 770.0, 131.0, 22.0 ],
+					"patching_rect" : [ 669.5, 721.000003337860107, 131.0, 22.0 ],
 					"text" : "receive~ 1-Mirror-out-2"
 				}
 
@@ -272,7 +485,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 416.0, 743.0, 131.0, 22.0 ],
+					"patching_rect" : [ 630.000000715255737, 698.000003337860107, 131.0, 22.0 ],
 					"text" : "receive~ 1-Mirror-out-1"
 				}
 
@@ -281,10 +494,10 @@
 				"box" : 				{
 					"id" : "obj-7",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 4,
 					"numoutlets" : 0,
-					"patching_rect" : [ 478.0, 853.0, 55.0, 22.0 ],
-					"text" : "dac~ 1 2"
+					"patching_rect" : [ 722.5, 964.000003337860107, 75.0, 22.0 ],
+					"text" : "dac~ 1 2 3 4"
 				}
 
 			}
@@ -324,7 +537,7 @@
 					"numoutlets" : 6,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal" ],
-					"patching_rect" : [ 1066.0, 5.5, 411.0, 442.0 ],
+					"patching_rect" : [ 481.833335757255554, 2.833333253860474, 360.333331823348999, 438.5 ],
 					"varname" : "fmgran6.gui",
 					"viewvisibility" : 1
 				}
@@ -358,7 +571,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 143.0, 1813.0, 903.0 ],
+						"rect" : [ 34.0, 115.0, 1340.0, 751.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -2072,22 +2285,22 @@
 										"1-sinux-amp6" : [ 100 ],
 										"1-sinux-amp7" : [ 100 ],
 										"1-sinux-amp8" : [ 100 ],
-										"1-sinux-beatings" : [ 0.001 ],
-										"1-sinux-centroid" : [ 164.155432196669295 ],
-										"1-sinux-enable" : [ 1 ],
-										"1-sinux-freq1" : [ 364.155432196669267 ],
-										"1-sinux-freq2" : [ 436.155432196669267 ],
-										"1-sinux-freq3" : [ 254.155432196669295 ],
-										"1-sinux-freq4" : [ 434.155432196669267 ],
-										"1-sinux-freq5" : [ 316.155432196669267 ],
-										"1-sinux-freq6" : [ 213.155432196669295 ],
-										"1-sinux-freq7" : [ 210.155432196669295 ],
-										"1-sinux-freq8" : [ 311.155432196669267 ],
-										"1-sinux-gain" : [ -70.0 ],
-										"1-sinux-interpolation" : [ 4000.0 ],
-										"1-sinux-mod-amp" : [ 0.0 ],
-										"1-sinux-mod-speed" : [ 2.0 ],
-										"1-sinux-spread" : [ 49 ]
+										"1-sinux-beatings" : [ 0.001153 ],
+										"1-sinux-centroid" : [ 564.442440028421288 ],
+										"1-sinux-enable" : [ 0 ],
+										"1-sinux-freq1" : [ 706.442440028421288 ],
+										"1-sinux-freq2" : [ 685.442440028421288 ],
+										"1-sinux-freq3" : [ 755.442440028421288 ],
+										"1-sinux-freq4" : [ 733.442440028421288 ],
+										"1-sinux-freq5" : [ 780.442440028421288 ],
+										"1-sinux-freq6" : [ 746.442440028421288 ],
+										"1-sinux-freq7" : [ 655.442440028421288 ],
+										"1-sinux-freq8" : [ 610.442440028421288 ],
+										"1-sinux-gain" : [ 0.837526708186132 ],
+										"1-sinux-interpolation" : [ 80000.0 ],
+										"1-sinux-mod-amp" : [ 3.840594977778224 ],
+										"1-sinux-mod-speed" : [ 0.1579 ],
+										"1-sinux-spread" : [ 285 ]
 									}
 ,
 									"text" : "autopattr",
@@ -2915,30 +3128,8 @@
 						"bgcolor" : [ 0.490196078431373, 0.490196078431373, 0.490196078431373, 1.0 ]
 					}
 ,
-					"patching_rect" : [ 592.0, 9.0, 464.0, 435.0 ],
+					"patching_rect" : [ 7.833335757255554, 6.333333253860474, 464.0, 435.0 ],
 					"varname" : "sinux.gui",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ 1 ],
-					"bgmode" : 1,
-					"border" : 1,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-3",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "mirror.gui.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 2,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 12.0, 9.0, 574.0, 436.0 ],
-					"varname" : "mirror.gui",
 					"viewvisibility" : 1
 				}
 
@@ -2959,7 +3150,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1203.0, 535.0, 110.0, 209.0 ],
+					"patching_rect" : [ 430.200002789497375, 792.200003981590271, 110.0, 209.0 ],
 					"varname" : "microphone[1]",
 					"viewvisibility" : 1
 				}
@@ -2981,7 +3172,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1084.0, 535.0, 110.0, 209.0 ],
+					"patching_rect" : [ 36.0, 785.000003337860107, 110.0, 209.0 ],
 					"varname" : "microphone",
 					"viewvisibility" : 1
 				}
@@ -3019,7 +3210,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -3027,14 +3218,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-14", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 1 ],
+					"destination" : [ "obj-7", 2 ],
 					"order" : 0,
 					"source" : [ "obj-17", 0 ]
 				}
@@ -3042,16 +3233,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-7", 1 ],
 					"order" : 1,
 					"source" : [ "obj-17", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
-					"source" : [ "obj-18", 0 ]
 				}
 
 			}
@@ -3059,7 +3243,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-22", 1 ],
 					"order" : 0,
-					"source" : [ "obj-19", 0 ]
+					"source" : [ "obj-18", 0 ]
 				}
 
 			}
@@ -3067,6 +3251,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"order" : 1,
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -3094,8 +3285,80 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
+					"destination" : [ "obj-19", 0 ],
 					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"order" : 0,
+					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"order" : 1,
+					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-40", 0 ],
+					"source" : [ "obj-36", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-38", 0 ],
+					"source" : [ "obj-40", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-52", 0 ],
+					"source" : [ "obj-50", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-53", 0 ],
+					"source" : [ "obj-52", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-56", 0 ],
+					"source" : [ "obj-52", 5 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-55", 0 ],
+					"source" : [ "obj-53", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-45", 0 ],
+					"source" : [ "obj-55", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-44", 0 ],
+					"source" : [ "obj-56", 0 ]
 				}
 
 			}
@@ -3115,31 +3378,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-3::obj-115" : [ "slider", "slider", 0 ],
-			"obj-3::obj-116" : [ "slider[1]", "slider[1]", 0 ],
-			"obj-3::obj-120" : [ "slider[3]", "slider[3]", 0 ],
-			"obj-3::obj-121" : [ "slider[2]", "slider[2]", 0 ],
-			"obj-3::obj-122" : [ "slider[5]", "slider[5]", 0 ],
-			"obj-3::obj-123" : [ "slider[4]", "slider[4]", 0 ],
-			"obj-3::obj-125" : [ "slider[7]", "slider[7]", 0 ],
-			"obj-3::obj-126" : [ "slider[6]", "slider[6]", 0 ],
-			"obj-3::obj-26" : [ "multislider", "multislider", 1 ],
-			"obj-3::obj-31" : [ "button", "button", 0 ],
-			"obj-3::obj-73" : [ "number", "number", 0 ],
-			"obj-3::obj-83" : [ "toggle", "toggle", 0 ],
-			"obj-3::obj-86" : [ "kslider", "kslider", 0 ],
 			"obj-4::obj-6" : [ "gain", "gain", 0 ],
 			"obj-5::obj-61" : [ "Gain[5]", "Gain", 0 ],
 			"parameterbanks" : 			{
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-3::obj-86" : 				{
-					"parameter_invisible" : 1,
-					"parameter_modmode" : 0,
-					"parameter_unitstyle" : 10
-				}
 
 			}
 ,
@@ -3148,70 +3389,49 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "microphone.maxpat",
-				"bootpath" : "~/Desktop/Installazione_Openday",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mirror.gui.maxpat",
-				"bootpath" : "~/Desktop/Installazione_Openday",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mirror.algo.maxpat",
-				"bootpath" : "~/Desktop/Installazione_Openday",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sub_osc.maxpat",
-				"bootpath" : "~/Desktop/Installazione_Openday",
+				"bootpath" : "~/Projects/Dissemination/Teaching/Conservatorio/2022_Pesaro/Openday_2022",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sinux.algo.maxpat",
-				"bootpath" : "~/Desktop/Installazione_Openday",
+				"bootpath" : "~/Projects/Dissemination/Teaching/Conservatorio/2022_Pesaro/Openday_2022",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sinux.compoment.maxpat",
-				"bootpath" : "~/Desktop/Installazione_Openday",
+				"bootpath" : "~/Projects/Dissemination/Teaching/Conservatorio/2022_Pesaro/Openday_2022",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bnl.sr.maxpat",
-				"bootpath" : "~/Desktop/Installazione_Openday",
+				"bootpath" : "~/Projects/Dissemination/Teaching/Conservatorio/2022_Pesaro/Openday_2022",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fmgran6.gui.maxpat",
-				"bootpath" : "~/Desktop/Installazione_Openday",
+				"bootpath" : "~/Projects/Dissemination/Teaching/Conservatorio/2022_Pesaro/Openday_2022",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fmgran6.algo.maxpat",
-				"bootpath" : "~/Desktop/Installazione_Openday",
+				"bootpath" : "~/Projects/Dissemination/Teaching/Conservatorio/2022_Pesaro/Openday_2022",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fmprotogran6.maxpat",
-				"bootpath" : "~/Desktop/Installazione_Openday",
+				"bootpath" : "~/Projects/Dissemination/Teaching/Conservatorio/2022_Pesaro/Openday_2022",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -3224,7 +3444,7 @@
 			}
 , 			{
 				"name" : "reverb.maxpat",
-				"bootpath" : "~/Desktop/Installazione_Openday",
+				"bootpath" : "~/Projects/Dissemination/Teaching/Conservatorio/2022_Pesaro/Openday_2022",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -3237,14 +3457,14 @@
 			}
 , 			{
 				"name" : "modal_synth_module2.maxpat",
-				"bootpath" : "~/Desktop/Installazione_Openday",
+				"bootpath" : "~/Projects/Dissemination/Teaching/Conservatorio/2022_Pesaro/Openday_2022",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mode_gen2.maxpat",
-				"bootpath" : "~/Desktop/Installazione_Openday",
+				"bootpath" : "~/Projects/Dissemination/Teaching/Conservatorio/2022_Pesaro/Openday_2022",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
