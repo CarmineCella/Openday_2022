@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1340.0, 779.0 ],
+		"rect" : [ 34.0, 115.0, 1852.0, 899.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,56 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-32",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 626.0, 826.5, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "gain~",
+					"multichannelvariant" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 642.5, 935.0, 22.0, 140.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 602.0, 864.0, 43.0, 22.0 ],
+					"text" : "cycle~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 914.0, 843.200003981590271, 137.0, 22.0 ],
+					"text" : "receive~ 2-signal-output"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-56",
 					"maxclass" : "button",
@@ -118,7 +168,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 973.666663646697998, 576.000017166137695, 151.0, 89.0 ],
-					"presentation_linecount" : 6,
 					"text" : ";\r1-FMgran-lenmin 10000;\r1-FMgran-lenrange 10000;\r1-FMgran-index 1;\r1-FMgran-fundamental 27;\r:"
 				}
 
@@ -205,8 +254,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 863.0, 906.0, 161.0, 33.0 ],
-					"presentation_linecount" : 3,
+					"patching_rect" : [ 930.5, 914.5, 161.0, 33.0 ],
 					"text" : "Uscite 1 e 2: casse per droni\nUscita 3 e 4: placche"
 				}
 
@@ -292,11 +340,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-26",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1007.999998271465302, 60.333319306373596, 150.0, 47.0 ],
+					"patching_rect" : [ 1002.999998271465302, 47.333319306373596, 176.0, 33.0 ],
 					"text" : "mapping energia del pizeo 1 sul pitch del modal synth 1"
 				}
 
@@ -355,7 +403,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1011.666663646697998, 362.866657853126526, 75.0, 22.0 ],
+					"patching_rect" : [ 1011.666663646697998, 364.366657853126526, 75.0, 22.0 ],
 					"text" : "send 1-fmax"
 				}
 
@@ -379,7 +427,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 863.0, 830.700003981590271, 137.0, 22.0 ],
+					"patching_rect" : [ 899.0, 811.700003981590271, 137.0, 22.0 ],
 					"text" : "receive~ 1-signal-output"
 				}
 
@@ -449,7 +497,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 863.0, 806.700003981590271, 128.0, 22.0 ],
+					"patching_rect" : [ 704.0, 733.700003981590271, 128.0, 22.0 ],
 					"text" : "receive~ 1-sinux-out-2"
 				}
 
@@ -461,32 +509,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 714.166667580604553, 756.700003981590271, 128.0, 22.0 ],
+					"patching_rect" : [ 691.666667580604553, 748.200003981590271, 128.0, 22.0 ],
 					"text" : "receive~ 1-sinux-out-1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-11",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 669.5, 721.000003337860107, 131.0, 22.0 ],
-					"text" : "receive~ 1-Mirror-out-2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-10",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 630.000000715255737, 698.000003337860107, 131.0, 22.0 ],
-					"text" : "receive~ 1-Mirror-out-1"
 				}
 
 			}
@@ -496,7 +520,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 0,
-					"patching_rect" : [ 722.5, 964.000003337860107, 75.0, 22.0 ],
+					"patching_rect" : [ 722.5, 964.000003337860107, 369.5, 22.0 ],
 					"text" : "dac~ 1 2 3 4"
 				}
 
@@ -2277,30 +2301,30 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 655.5, 937.0, 56.0, 22.0 ],
 									"restore" : 									{
-										"1-sinux-amp1" : [ 100 ],
-										"1-sinux-amp2" : [ 100 ],
-										"1-sinux-amp3" : [ 100 ],
+										"1-sinux-amp1" : [ 84 ],
+										"1-sinux-amp2" : [ 87 ],
+										"1-sinux-amp3" : [ 104 ],
 										"1-sinux-amp4" : [ 100 ],
-										"1-sinux-amp5" : [ 100 ],
+										"1-sinux-amp5" : [ 95 ],
 										"1-sinux-amp6" : [ 100 ],
-										"1-sinux-amp7" : [ 100 ],
-										"1-sinux-amp8" : [ 100 ],
-										"1-sinux-beatings" : [ 0.001153 ],
-										"1-sinux-centroid" : [ 564.442440028421288 ],
+										"1-sinux-amp7" : [ 108 ],
+										"1-sinux-amp8" : [ 117 ],
+										"1-sinux-beatings" : [ 0.113 ],
+										"1-sinux-centroid" : [ 648.35164835164835 ],
 										"1-sinux-enable" : [ 0 ],
-										"1-sinux-freq1" : [ 706.442440028421288 ],
-										"1-sinux-freq2" : [ 685.442440028421288 ],
-										"1-sinux-freq3" : [ 755.442440028421288 ],
-										"1-sinux-freq4" : [ 733.442440028421288 ],
-										"1-sinux-freq5" : [ 780.442440028421288 ],
-										"1-sinux-freq6" : [ 746.442440028421288 ],
-										"1-sinux-freq7" : [ 655.442440028421288 ],
-										"1-sinux-freq8" : [ 610.442440028421288 ],
-										"1-sinux-gain" : [ 0.837526708186132 ],
-										"1-sinux-interpolation" : [ 80000.0 ],
-										"1-sinux-mod-amp" : [ 3.840594977778224 ],
-										"1-sinux-mod-speed" : [ 0.1579 ],
-										"1-sinux-spread" : [ 285 ]
+										"1-sinux-freq1" : [ 805.35164835164835 ],
+										"1-sinux-freq2" : [ 738.35164835164835 ],
+										"1-sinux-freq3" : [ 808.35164835164835 ],
+										"1-sinux-freq4" : [ 663.35164835164835 ],
+										"1-sinux-freq5" : [ 685.35164835164835 ],
+										"1-sinux-freq6" : [ 773.35164835164835 ],
+										"1-sinux-freq7" : [ 746.35164835164835 ],
+										"1-sinux-freq8" : [ 804.35164835164835 ],
+										"1-sinux-gain" : [ -4.188976377952756 ],
+										"1-sinux-interpolation" : [ 88000.0 ],
+										"1-sinux-mod-amp" : [ 0.0 ],
+										"1-sinux-mod-speed" : [ 0.936 ],
+										"1-sinux-spread" : [ 182 ]
 									}
 ,
 									"text" : "autopattr",
@@ -3181,15 +3205,8 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-11", 0 ],
 					"source" : [ "obj-10", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 1 ],
-					"source" : [ "obj-11", 0 ]
 				}
 
 			}
@@ -3225,16 +3242,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 2 ],
-					"order" : 0,
-					"source" : [ "obj-17", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 1 ],
-					"order" : 1,
+					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -3303,6 +3311,20 @@
 					"destination" : [ "obj-33", 0 ],
 					"order" : 1,
 					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 1 ],
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"source" : [ "obj-32", 0 ]
 				}
 
 			}

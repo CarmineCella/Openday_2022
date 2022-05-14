@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 11,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 190.0, 192.0, 1052.0, 809.0 ],
+		"rect" : [ 34.0, 115.0, 1852.0, 899.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"format" : 6,
@@ -94,10 +95,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 211.0, 64.0, 28.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 3"
 				}
 
@@ -132,10 +129,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 170.40002400000003, 64.0, 28.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 2"
 				}
 
@@ -242,10 +235,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 173.666656494140625, 706.33331298828125, 44.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out~ 1"
 				}
 
@@ -292,10 +281,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 676.00006099999996, 85.5, 28.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 6"
 				}
 
@@ -319,10 +304,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 594.666687000000024, 89.0, 28.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 5"
 				}
 
@@ -356,8 +337,8 @@
 					"id" : "obj-43",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "int", "int" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "int", "int" ],
 					"patching_rect" : [ 508.333312999999976, 105.5, 58.0, 22.0 ],
 					"text" : "thispoly~"
 				}
@@ -394,10 +375,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 328.5, 53.5, 28.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 4"
 				}
 
@@ -433,10 +410,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 50.5, 329.0, 37.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in~ 1"
 				}
 
